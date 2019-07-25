@@ -1,0 +1,22 @@
+#!/usr/bin/php
+<?php
+
+namespace Test;
+
+
+
+
+use Phore\Cmd\PhoreCmdCtrl;
+
+require __DIR__ . "/../vendor/autoload.php";
+
+$ctrl = new PhoreCmdCtrl("Some fance program", <<<EOT
+
+Usage:
+  call program:  Do something
+  
+EOT
+);
+
+
+$ctrl->defineParam("verbosity")->description("Set verbosity level")-
