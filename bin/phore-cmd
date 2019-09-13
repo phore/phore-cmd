@@ -19,4 +19,6 @@ EOT
 );
 
 
-$ctrl->defineParam("verbosity")->description("Set verbosity level")-
+
+
+$ctrl->defineParam("verbosity")->description("Set verbosity level");

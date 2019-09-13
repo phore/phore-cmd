@@ -1,0 +1,20 @@
+Demo text
+
+Usage:
+  Text showing the usage
+
+Arguments:
+  -v            Verbosity
+  -d            Daemon mode
+  -file <file>  Input file
+  -h            Show help
+
+Groups:
+  example       Examples
+
+Commands:
+  build [name] [volume]        Build a new version
+    --input <input>     Input to build from
+    --output <file>     Save to file
+  info          Output more info
+
